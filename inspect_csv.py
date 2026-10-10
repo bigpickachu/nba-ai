@@ -1,0 +1,11 @@
+import pandas as pd
+pd.set_option("display.width", 250)
+df = pd.read_csv("C:/Users/franc/nba-ai/data/nba_betting.csv")
+print("linhas:", len(df))
+print("colunas:", list(df.columns))
+print("\ndtypes:");print(df.dtypes)
+print("\ndatas: min=", df.iloc[:, 0].min(), " max=", df.iloc[:, 0].max())
+print("\n% nulos por coluna:")
+print((df.isna().sum() / len(df) * 100).round(2))
+print("\namostra 5:")
+print(df.head(5).to_string())
