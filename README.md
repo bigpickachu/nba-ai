@@ -1,4 +1,4 @@
-# NBA: o mesmo protocolo, refutado por outra via (comparativo futebol vs NBA)
+# NBA: o mesmo protocolo, refutado por outra via (comparativo futebol vs NBA). RESULTADO: refutada por irrelevância — ROI -0,14%, o modelo erra barato e sempre.
 
 Replica do protocolo de `football-ai` na NBA (24.440 jogos, 2007–2026): ingestão, EDA, modelos, value-betting. Resultado: refutação por **irrelevância** — o modelo empata o ruído em vez de perder para ele.
 
